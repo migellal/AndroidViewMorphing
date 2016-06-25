@@ -12,8 +12,27 @@
     tools:context="pl.digitalzombielab.androidviewmorphing.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/radioGroup"
+        android:contentDescription="@string/app_name"
+        android:layout_alignRight="@+id/radioGroup"
+        android:layout_alignEnd="@+id/radioGroup"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_android_black_24dp"
+        android:onClick="onClickImage"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/radioGroup">
+
+    </RadioGroup>
+
+
+
 </RelativeLayout>
