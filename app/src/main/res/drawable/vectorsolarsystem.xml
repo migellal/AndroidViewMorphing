@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+
+    app:vc_viewportHeight="24"
+    app:vc_viewportWidth="24">
+    <group
+        android:name="sun"
+        android:rotation="0" >
+        <path
+            android:name="sun_path"
+            android:fillColor="#FFFF8000"
+            android:pathData="m -25 0 a 25,25 0 1,0 50,0 a 25,25 0 1,0 -50,0"
+
+            app:vc_fillColor="#FFFF8000"
+            app:vc_pathData="m -25 0 a 25,25 0 1,0 50,0 a 25,25 0 1,0 -50,0" />
+        <group
+            android:name="earth"
+            android:rotation="0"
+            android:translateX="75" >
+            <path
+                android:name="earth_path"
+                android:fillColor="#ff5656ea"
+                android:pathData="m -10 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0"/>
+            <group
+                android:translateX="25">
+                <path
+                    android:fillColor="#ffaadadad"
+                    android:pathData="m -5 0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"/>
+
+            </group>
+
+        </group>
+    </group>
+</vector>
