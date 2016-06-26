@@ -40,9 +40,14 @@ public class MainActivity extends AppCompatActivity {
                     imageView.setImageResource(R.drawable.ic_android_black_24dp);
                     staticAndroidView = true;
                     break;
-                case R.id.simple1RB:
+                case R.id.arrowToDoneRB:
                     animatable = (Animatable) ResourcesCompat.getDrawable
                             (getApplicationContext(), R.drawable.animvectordrawable);
+                    imageView.setImageDrawable((Drawable) animatable);
+                    break;
+                case R.id.solarSystemRB:
+                    animatable = (Animatable) ResourcesCompat.getDrawable
+                            (getApplicationContext(), R.drawable.animvectorsolarsystem);
                     imageView.setImageDrawable((Drawable) animatable);
                     break;
             }

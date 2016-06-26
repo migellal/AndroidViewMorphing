@@ -2,5 +2,6 @@
     <string name="app_name">Android View Morphing</string>
     <string name="action_settings">Settings</string>
     <string name="android_logo">Android logo</string>
-    <string name="simple_1">Simple 1</string>
+    <string name="arrow_to_done">Arrow to done</string>
+    <string name="solar_system">Solar system</string>
 </resources>

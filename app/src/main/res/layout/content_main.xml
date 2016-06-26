@@ -42,9 +42,16 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/simple_1"
+            android:text="@string/arrow_to_done"
             android:onClick="onClickSelect"
-            android:id="@+id/simple1RB" />
+            android:id="@+id/arrowToDoneRB" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solar_system"
+            android:onClick="onClickSelect"
+            android:id="@+id/solarSystemRB" />
     </RadioGroup>
 
 
