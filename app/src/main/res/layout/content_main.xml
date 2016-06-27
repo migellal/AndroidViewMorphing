@@ -52,6 +52,13 @@
             android:text="@string/solar_system"
             android:onClick="onClickSelect"
             android:id="@+id/solarSystemRB" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_anim"
+            android:onClick="onClickSelect"
+            android:id="@+id/androidAnimRB" />
     </RadioGroup>
 
 
